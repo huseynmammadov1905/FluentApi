@@ -1,0 +1,45 @@
+﻿<Window x:Class="SchoolBus.Presentation.Views.DriverAddView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SchoolBus.Presentation.Views" xmlns:viewmodels="clr-namespace:SchoolBus.Presentation.ViewModels" d:DataContext="{d:DesignInstance Type=viewmodels:DriverAddViewModel}"
+        mc:Ignorable="d"
+        Title="DriverAddView" Height="450" Width="800">
+    <Grid Background="LightYellow">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+
+        </Grid.RowDefinitions>
+        <Label FontSize="50" HorizontalAlignment="Center" FontFamily="Elephant">Add Car</Label>
+        <Label Grid.Row="1" FontSize="20" HorizontalAlignment="Center" FontFamily="Elephant">FirstName</Label>
+        <TextBox Text="{Binding AddDriver.FirstName}" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="400"></TextBox>
+        <Label Grid.Row="2" FontSize="20" HorizontalAlignment="Center" FontFamily="Elephant">LastName</Label>
+        <TextBox  Text="{Binding AddDriver.LastName}" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="400"></TextBox>
+        <Label Grid.Row="3" FontSize="20" HorizontalAlignment="Center" FontFamily="Elephant">Phone Number</Label>
+        <TextBox Text="{Binding AddDriver.PhoneNumber}" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="400"></TextBox>
+        <Label Grid.Row="4" FontSize="20" HorizontalAlignment="Center" FontFamily="Elephant">Adress</Label>
+        <TextBox Text="{Binding AddDriver.Adress}" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="400"></TextBox>
+
+        <Label Grid.Row="5" FontSize="20" HorizontalAlignment="Center" FontFamily="Elephant">Car Name</Label>
+        <ComboBox Grid.Row="5" ItemsSource="{Binding Cars_}" SelectedItem="{Binding _SelectCar}" VerticalAlignment="Center" Width="400"></ComboBox>
+
+      
+
+
+        <Button Grid.Row="7"
+
+    Content="Create Car"
+        Width="200"
+        Background="Orange"
+        Foreground="Black"
+    Margin="2,0"
+    Command="{Binding DriverCreateCommand}" />
+    </Grid>
+</Window>

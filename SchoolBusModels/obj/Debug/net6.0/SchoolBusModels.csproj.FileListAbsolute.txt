@@ -1,0 +1,12 @@
+C:\Users\memme\source\repos\FluentApi\SchoolBusModels\bin\Debug\net6.0\SchoolBusModels.deps.json
+C:\Users\memme\source\repos\FluentApi\SchoolBusModels\bin\Debug\net6.0\SchoolBusModels.dll
+C:\Users\memme\source\repos\FluentApi\SchoolBusModels\bin\Debug\net6.0\SchoolBusModels.pdb
+C:\Users\memme\source\repos\FluentApi\SchoolBusModels\obj\Debug\net6.0\SchoolBusModels.csproj.AssemblyReference.cache
+C:\Users\memme\source\repos\FluentApi\SchoolBusModels\obj\Debug\net6.0\SchoolBusModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\memme\source\repos\FluentApi\SchoolBusModels\obj\Debug\net6.0\SchoolBusModels.AssemblyInfoInputs.cache
+C:\Users\memme\source\repos\FluentApi\SchoolBusModels\obj\Debug\net6.0\SchoolBusModels.AssemblyInfo.cs
+C:\Users\memme\source\repos\FluentApi\SchoolBusModels\obj\Debug\net6.0\SchoolBusModels.csproj.CoreCompileInputs.cache
+C:\Users\memme\source\repos\FluentApi\SchoolBusModels\obj\Debug\net6.0\SchoolBusModels.dll
+C:\Users\memme\source\repos\FluentApi\SchoolBusModels\obj\Debug\net6.0\refint\SchoolBusModels.dll
+C:\Users\memme\source\repos\FluentApi\SchoolBusModels\obj\Debug\net6.0\SchoolBusModels.pdb
+C:\Users\memme\source\repos\FluentApi\SchoolBusModels\obj\Debug\net6.0\ref\SchoolBusModels.dll
